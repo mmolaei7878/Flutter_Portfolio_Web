@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'dart:html' as html;
 
 class Footer extends StatelessWidget {
@@ -50,17 +49,6 @@ class Footer extends StatelessWidget {
                       mainAxisSize: MainAxisSize.min,
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        IconButton(
-                          icon: Image.asset(
-                            'lib/asset/insta.png',
-                            color: Theme.of(context).accentColor,
-                          ),
-                          onPressed: () {
-                            html.window.location.href =
-                                "https://www.google.com";
-                          },
-                          iconSize: 75,
-                        ),
                         IconButton(
                           iconSize: 75,
                           icon: Image.asset(
