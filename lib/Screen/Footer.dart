@@ -58,7 +58,7 @@ class Footer extends StatelessWidget {
                           ),
                           onPressed: () {
                             html.window.location.href =
-                                "https://www.google.com";
+                                "https://github.com/mmolaei7878";
                           },
                         ),
                       ],
